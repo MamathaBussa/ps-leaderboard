@@ -28,7 +28,15 @@ class App extends Component {
         <div className="container">
           <div className="row">
             <h4>Leader Board</h4>
-            <ImageShield />
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <ImageShield />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>

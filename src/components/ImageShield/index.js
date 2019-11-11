@@ -4,8 +4,13 @@ import './styles.sass'
 class ImageShield extends Component {
   render() {
     return (
-      <div className="ImageShield white card">
-        <img src="/img/smiley.png" alt="smiley plus shield" />
+      <div className="ImageShield">
+        <div className="white card smiley">
+          <img src="/img/smiley.png" alt="smiley" />
+        </div>
+        <div className="white card team-name">
+          <h3>Hawkings...</h3>
+        </div>
       </div>
     )
   }
