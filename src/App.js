@@ -11,10 +11,47 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
+      <div class="container App">
         <h1>
           PS Leaderboard...
         </h1>
+        <h1>
+          PS Leaderboard...
+        </h1>
+        <h1>
+          PS Leaderboard...
+        </h1>
+        <h1>
+          PS Leaderboard...
+        </h1>
+        <h1>
+          PS Leaderboard...
+        </h1>
+        <h1>
+          PS Leaderboard...
+        </h1>
+        <h1>
+          PS Leaderboard...
+        </h1>
+        <h1>
+          PS Leaderboard...
+        </h1>
+        <h1>
+          PS Leaderboard...
+        </h1>
+        <h1>
+          PS Leaderboard...
+        </h1>
+        <h1>
+          PS Leaderboard...
+        </h1>
+        <h1>
+          PS Leaderboard...
+        </h1>
+        <h1>
+          PS Leaderboard...
+        </h1>
+        
       </div>
     );
   }

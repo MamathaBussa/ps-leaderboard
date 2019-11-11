@@ -1,48 +1,46 @@
-  body {
-    padding: 0;
-    margin: 0;
+.loading-indicator-outer-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+.loading-indicator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}
+
+.loading-indicator p {
+  padding: 20px;
+}
+
+.loading-indicator img {
+  max-width: 100%;
+}
+
+.loading-indicator img.react-logo {
+  height: 100px;
+}
+
+.rotate {
+  animation: rotation 12s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
   }
 
-  .loading-indicator-outer-wrapper {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  to {
+    transform: rotate(359deg);
   }
-  .loading-indicator {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    background-color: white;
-    color: white;
-    font-family: monospace;
-    text-align: center;
-  }
-
-  .loading-indicator p {
-    padding: 20px;
-  }
-
-  .loading-indicator img {
-    max-width: 100%;
-  }
-
-  .loading-indicator img.react-logo {
-    height: 100px;
-  }
-
-  .rotate {
-    animation: rotation 12s infinite linear;
-  }
-
-  @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-  }
+}
