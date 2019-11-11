@@ -11,7 +11,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div class="container App">
+      <div className="container App">
         <h1>
           PS Leaderboard...
         </h1>
@@ -51,7 +51,7 @@ class App extends Component {
         <h1>
           PS Leaderboard...
         </h1>
-        
+
       </div>
     );
   }
