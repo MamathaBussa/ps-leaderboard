@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import $ from 'jquery'
 import './App.sass'
 import ImageShield from './components/ImageShield'
+import TeamNameInTable from './components/TeamNameInTable'
 
 class App extends Component {
   componentDidMount() {
@@ -28,50 +29,20 @@ class App extends Component {
         <div className="container">
           <div className="row">
             <h4>Leader Board</h4>
-            <table>
-              <tbody>
-                <tr>
-                  <td>
-                    <ImageShield />
-                  </td>
-                  <td>
-                    <ImageShield />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <ImageShield />
-                  </td>
-                  <td>
-                    <ImageShield />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <ImageShield />
-                  </td>
-                  <td>
-                    <ImageShield />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <ImageShield />
-                  </td>
-                  <td>
-                    <ImageShield />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <ImageShield />
-                  </td>
-                  <td>
-                    <ImageShield />
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+          </div>
+          <div className="row">
+            <div className="col s12 l6 l6">
+              <div class="test">
+                <ImageShield />
+                <TeamNameInTable />
+              </div>
+            </div>
+            <div className="col s12 l6 l6">
+              <div class="test">
+                <ImageShield />
+                <TeamNameInTable />
+              </div>
+            </div>
           </div>
         </div>
       </div>
