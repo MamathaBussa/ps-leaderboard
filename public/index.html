@@ -26,17 +26,18 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>PS Leaderboard</title>
+    <title> PS Leaderboard</title>
   </head>
   <body>
 
     <noscript>You need to enable JavaScript to run this app.</noscript>
-
+    <% if(process.env.NODE_ENV === 'production') { %>
     <div class="loading-indicator-outer-wrapper">
       <div class="loading-indicator">
         <p><img src="ezgif.com-resize.gif"  /><p>
       </div>
     </div>
+    <% } %>
 
     <div id="root"></div>
     <!--
