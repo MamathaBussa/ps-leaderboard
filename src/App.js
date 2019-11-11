@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import $ from 'jquery'
+import './App.sass'
 
 class App extends Component {
   componentDidMount() {
