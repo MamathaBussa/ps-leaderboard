@@ -1,8 +1,7 @@
 import React, {Component} from 'react'
 import $ from 'jquery'
 import './App.sass'
-import ImageShield from './components/ImageShield'
-import TeamNameInTable from './components/TeamNameInTable'
+import TeamRow from './components/TeamRow'
 
 class App extends Component {
   componentDidMount() {
@@ -27,23 +26,12 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container">
-          <div className="row">
-            <h4>Leader Board</h4>
-          </div>
-          <div className="row">
-            <div className="col s12 l6 l6">
-              <div class="test">
-                <ImageShield />
-                <TeamNameInTable />
-              </div>
-            </div>
-            <div className="col s12 l6 l6">
-              <div class="test">
-                <ImageShield />
-                <TeamNameInTable />
-              </div>
-            </div>
-          </div>
+          <br />
+          <TeamRow />
+          <TeamRow />
+          <TeamRow />
+          <TeamRow />
+          <TeamRow />
         </div>
       </div>
     )
