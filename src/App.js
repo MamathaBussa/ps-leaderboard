@@ -38,6 +38,38 @@ class App extends Component {
                     <ImageShield />
                   </td>
                 </tr>
+                <tr>
+                  <td>
+                    <ImageShield />
+                  </td>
+                  <td>
+                    <ImageShield />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <ImageShield />
+                  </td>
+                  <td>
+                    <ImageShield />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <ImageShield />
+                  </td>
+                  <td>
+                    <ImageShield />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <ImageShield />
+                  </td>
+                  <td>
+                    <ImageShield />
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
