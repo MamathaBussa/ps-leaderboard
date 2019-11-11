@@ -9,7 +9,7 @@ class ImageShield extends Component {
           <img src="/img/smiley.png" alt="smiley" />
         </div>
         <div className="white card team-name">
-          <h3>Hawkings...</h3>
+          <p>Hawkings...</p>
         </div>
       </div>
     )

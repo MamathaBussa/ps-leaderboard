@@ -34,6 +34,9 @@ class App extends Component {
                   <td>
                     <ImageShield />
                   </td>
+                  <td>
+                    <ImageShield />
+                  </td>
                 </tr>
               </tbody>
             </table>

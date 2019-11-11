@@ -1,11 +1,11 @@
 .ImageShield
   display: flex
-
+  border: 1px blue solid
   div.smiley
-      background: url(/img/shield.png) no-repeat 68px 32px
-      background-size: 130px
-      width: 200px
-      height: 200px
+      background: url(/img/shield.png) no-repeat 30px 12px
+      background-size: 65px
+      width: 100px
+      height: 100px
       border-radius: 100px
       display: flex
       justify-content: center
@@ -14,9 +14,15 @@
         display: block
         margin: 0 auto
         margin-left: 5px
-        width: 120px
+        width: 60px
   div.team-name
     display: flex
+    flex-direction: column
     padding: 10px
     justify-content: space-around
     margin-left: 10px
+    height: 100px
+    width: 75%
+    p
+      line-height: 1
+      font-size: 40px
