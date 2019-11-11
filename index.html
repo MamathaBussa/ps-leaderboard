@@ -16,8 +16,6 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="preload" as="image" href="ezgif.com-resize.gif" />
-    <link rel="stylesheet" href="preloading-page.css" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -30,13 +28,63 @@
     <title>React App</title>
   </head>
   <body>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
 
+      .loading-indicator-outer-wrapper {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+      .loading-indicator {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-family: monospace;
+        text-align: center;
+      }
+
+      .loading-indicator p {
+        padding: 20px;
+      }
+
+      .loading-indicator img {
+        max-width: 100%;
+      }
+
+      .loading-indicator img.react-logo {
+        height: 100px;
+      }
+
+      .rotate {
+        animation: rotation 12s infinite linear;
+      }
+
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+
+    </style>
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
     <div class="loading-indicator-outer-wrapper">
       <div class="loading-indicator">
-        <p><img src="ezgif.com-resize.gif"  /><p>
-        <!-- <p><img src="giphy.gif" class="giphy-logo"/></p> -->
+        <p><img src="logo192.png" class="rotate react-logo" /><p>
+        <p><img src="giphy.gif" class="giphy-logo"/></p>
       </div>
     </div>
 
