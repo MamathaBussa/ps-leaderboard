@@ -5,7 +5,9 @@ class TeamNameCard extends Component {
   render() {
     const {componentData} = this.props
     return (
-      <div className="TeamNameCard card red-text text-darken-2">
+      <div
+        className="TeamNameCard card yellow lighten-2 red-text text-darken-2"
+      >
         {componentData.teamName}
       </div>
     )

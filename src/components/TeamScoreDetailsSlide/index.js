@@ -7,7 +7,7 @@ import './styles.sass'
 class TeamScoreDetailsSlide extends Component {
   render() {
     return (
-      <div className="TeamScoreDetailsSlide">
+      <div className="TeamScoreDetailsSlide card blue lighten-2">
         <table>
           <thead>
             <tr>
