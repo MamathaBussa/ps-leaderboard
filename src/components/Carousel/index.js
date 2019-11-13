@@ -44,7 +44,6 @@ export default Carousel
 
 // abstractions
 function autoPlayCarousel(carousel, autoPlayDuration = 2000) {
-  alert(autoPlayDuration)
   setInterval(function() {
     const carouselInstance = MaterializeCSS.Carousel.getInstance(carousel)
     carouselInstance.next()
