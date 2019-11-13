@@ -4,7 +4,7 @@ import TeamRow from '../TeamRow'
 class AllTeamSummarySlide extends Component {
   render() {
     return (
-      <div>
+      <div className="AllTeamSummarySlide">
         <TeamRow />
         <TeamRow />
         <TeamRow />
