@@ -20,6 +20,46 @@ class TeamScoreDetailsSlide extends Component {
                   componentData={{teamName: 'Hawkings'}}/>
               </td>
             </tr>
+            <tr>
+              <td>
+                <SmileyShieldAndTeamName teamName="Falcons"
+                  componentData={{teamName: 'Chargers'}} />
+              </td>
+              <td>
+                <SmileyShieldAndTeamName teamName="Hawkings"
+                  componentData={{teamName: 'Raiders'}}/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <SmileyShieldAndTeamName teamName="Falcons"
+                  componentData={{teamName: 'Giants'}} />
+              </td>
+              <td>
+                <SmileyShieldAndTeamName teamName="Hawkings"
+                  componentData={{teamName: 'Celtics'}}/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <SmileyShieldAndTeamName teamName="Falcons"
+                  componentData={{teamName: 'Broncos'}} />
+              </td>
+              <td>
+                <SmileyShieldAndTeamName teamName="Hawkings"
+                  componentData={{teamName: 'Eagles'}}/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <SmileyShieldAndTeamName teamName="Falcons"
+                  componentData={{teamName: 'Mavericks'}} />
+              </td>
+              <td>
+                <SmileyShieldAndTeamName teamName="Hawkings"
+                  componentData={{teamName: 'SeaHawks'}}/>
+              </td>
+            </tr>
           </thead>
         </table>
       </div>
