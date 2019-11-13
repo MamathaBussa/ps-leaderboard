@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import $ from 'jquery'
 import './App.sass'
 // import Carousel from './components/Carousel'
-import CurrentComponent from './components/ScoreCard'
+import CurrentComponent from './components/SmileyShieldTeamNameAndScoreCard'
 
 class App extends Component {
   componentDidMount() {
