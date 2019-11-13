@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 // import $ from 'jquery'
 import MaterializeCSS from 'materialize-css/dist/js/materialize'
-import TeamScoreDetailsSlide from '../TeamScoreDetailsSlide'
+import AllTeamSummarySlide from '../AllTeamSummarySlide'
 
 import './styles.sass'
 
@@ -28,13 +28,13 @@ class Carousel extends Component {
         ref={this.carouselRef}
       >
         <div className="carousel-item blue lighten-3" href="#one!">
-          <TeamScoreDetailsSlide />
+          <AllTeamSummarySlide />
         </div>
         <div className="carousel-item blue lighten-3" href="#two!">
-          <TeamScoreDetailsSlide />
+          <AllTeamSummarySlide />
         </div>
         <div className="carousel-item blue lighten-3" href="#three!">
-          <TeamScoreDetailsSlide />
+          <AllTeamSummarySlide />
         </div>
       </div>
     )
