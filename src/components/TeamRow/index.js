@@ -7,13 +7,13 @@ class TeamRow extends Component {
     return (
       <div className="row">
         <div className="col s12 l6 l6">
-          <div class="test">
+          <div className="test">
             <ImageShield />
             <TeamNameInTable />
           </div>
         </div>
         <div className="col s12 l6 l6">
-          <div class="test">
+          <div className="test">
             <ImageShield />
             <TeamNameInTable />
           </div>
