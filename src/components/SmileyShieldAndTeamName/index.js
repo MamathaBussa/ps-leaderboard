@@ -5,10 +5,13 @@ import './styles.sass'
 
 class SmileyShieldAndTeamName extends Component {
   render() {
+    const {componentData} = this.props
     return (
       <div className="SmileyShieldAndTeamName">
         <SmileyShield />
-        <TeamNameCard />
+        <TeamNameCard
+          componentData={componentData}
+        />
       </div>
     )
   }

@@ -3,9 +3,10 @@ import './styles.sass'
 
 class TeamNameCard extends Component {
   render() {
+    const {componentData} = this.props
     return (
       <div className="TeamNameCard card red-text text-darken-2">
-        Falcons
+        {componentData.teamName}
       </div>
     )
   }

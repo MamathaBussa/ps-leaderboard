@@ -12,10 +12,12 @@ class TeamScoreDetailsSlide extends Component {
           <thead>
             <tr>
               <td>
-                <SmileyShieldAndTeamName />
+                <SmileyShieldAndTeamName teamName="Falcons"
+                  componentData={{teamName: 'Falcons'}} />
               </td>
               <td>
-                <SmileyShieldAndTeamName />
+                <SmileyShieldAndTeamName teamName="Hawkings"
+                  componentData={{teamName: 'Hawkings'}}/>
               </td>
             </tr>
           </thead>
