@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-import SmileyShieldAndTeamName from '../SmileyShieldAndTeamName'
+import SmileyShieldTeamNameAndScoreCard from
+  '../SmileyShieldTeamNameAndScoreCard'
 // import ImageShield from '../ImageShield'
 // import TeamNameInTable from '../TeamNameInTable'
 import './styles.sass'
@@ -12,51 +13,60 @@ class TeamScoreDetailsSlide extends Component {
           <thead>
             <tr>
               <td>
-                <SmileyShieldAndTeamName teamName="Falcons"
-                  componentData={{teamName: 'Falcons'}} />
+                <SmileyShieldTeamNameAndScoreCard teamName="Falcons"
+                  componentData={{
+                    teamName: 'Falcons',
+                    score: 124,
+                  }} />
               </td>
               <td>
-                <SmileyShieldAndTeamName teamName="Hawkings"
-                  componentData={{teamName: 'Hawkings'}}/>
+                <SmileyShieldTeamNameAndScoreCard teamName="Hawkings"
+                  componentData={{
+                    teamName: 'Hawkings',
+                    score: 124,
+                  }}/>
               </td>
             </tr>
             <tr>
               <td>
-                <SmileyShieldAndTeamName teamName="Falcons"
-                  componentData={{teamName: 'Chargers'}} />
+                <SmileyShieldTeamNameAndScoreCard teamName="Falcons"
+                  componentData={{
+                    teamName: 'Chargers',
+                    score: 124,
+                  }} />
               </td>
               <td>
-                <SmileyShieldAndTeamName teamName="Hawkings"
+                <SmileyShieldTeamNameAndScoreCard teamName="Hawkings"
                   componentData={{teamName: 'Raiders'}}/>
               </td>
             </tr>
             <tr>
               <td>
-                <SmileyShieldAndTeamName teamName="Falcons"
+                <SmileyShieldTeamNameAndScoreCard teamName="Falcons"
                   componentData={{teamName: 'Giants'}} />
               </td>
               <td>
-                <SmileyShieldAndTeamName teamName="Hawkings"
+                <SmileyShieldTeamNameAndScoreCard teamName="Hawkings"
                   componentData={{teamName: 'Celtics'}}/>
               </td>
             </tr>
             <tr>
               <td>
-                <SmileyShieldAndTeamName teamName="Falcons"
+                <SmileyShieldTeamNameAndScoreCard teamName="Falcons"
                   componentData={{teamName: 'Broncos'}} />
               </td>
               <td>
-                <SmileyShieldAndTeamName teamName="Hawkings"
+                <SmileyShieldTeamNameAndScoreCard teamName="Hawkings"
                   componentData={{teamName: 'Eagles'}}/>
               </td>
             </tr>
             <tr>
               <td>
-                <SmileyShieldAndTeamName teamName="Falcons"
+                <SmileyShieldTeamNameAndScoreCard teamName="Falcons"
                   componentData={{teamName: 'Mavericks'}} />
               </td>
               <td>
-                <SmileyShieldAndTeamName teamName="Hawkings"
+                <SmileyShieldTeamNameAndScoreCard teamName="Hawkings"
                   componentData={{teamName: 'SeaHawks'}}/>
               </td>
             </tr>
