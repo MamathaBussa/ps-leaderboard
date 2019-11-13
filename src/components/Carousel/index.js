@@ -15,13 +15,13 @@ class Carousel extends Component {
   render() {
     return (
       <div className="carousel carousel-slider card center">
-        <div className="carousel-item blue lighten-2" href="#one!">
+        <div className="carousel-item blue lighten-3" href="#one!">
           <AllTeamSummarySlide />
         </div>
-        <div className="carousel-item blue lighten-2" href="#two!">
+        <div className="carousel-item blue lighten-3" href="#two!">
           <AllTeamSummarySlide />
         </div>
-        <div className="carousel-item blue lighten-2" href="#three!">
+        <div className="carousel-item blue lighten-3" href="#three!">
           <AllTeamSummarySlide />
         </div>
       </div>
