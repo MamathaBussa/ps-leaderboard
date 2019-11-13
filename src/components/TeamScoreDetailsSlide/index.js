@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import SmileyShieldAndTeamName from '../SmileyShieldAndTeamName'
 // import ImageShield from '../ImageShield'
 // import TeamNameInTable from '../TeamNameInTable'
 import './styles.sass'
@@ -11,20 +12,10 @@ class TeamScoreDetailsSlide extends Component {
           <thead>
             <tr>
               <td>
-                <div className="SmileyShieldAndTeamName">
-                  <div className="ImageShield card">ImageShield</div>
-                  <div className="TeamNameInTable card red-text text-darken-2">
-                    Falcons
-                  </div>
-                </div>
+                <SmileyShieldAndTeamName />
               </td>
               <td>
-                <div className="SmileyShieldAndTeamName">
-                  <div className="ImageShield card">ImageShield</div>
-                  <div className="TeamNameInTable card red-text text-darken-2">
-                    The Hawkings
-                  </div>
-                </div>
+                <SmileyShieldAndTeamName />
               </td>
             </tr>
           </thead>
