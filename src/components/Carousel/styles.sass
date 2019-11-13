@@ -1,14 +1,23 @@
 @import node_modules/materialize-css/sass/components/color-variables
 
 .carousel
+  // out-box
   margin-top: 5px
-  min-height: 680px
+  // box
+  min-height: 580px
   .carousel-item
-    padding: 22px
+    // in-box
+    padding: 15px
+    // debug
+    // outline: 2px blue solid
 ul.indicators
   background-color: color("blue", "lighten-2")
   li.indicator-item
     height: 16px !important
     width: 16px !important
     border-radius: 8px
+    background-color: color("yellow", "lighten-2") !important
+    box-shadow: 2px 2px 0px color("purple", "darken-3")
     // border: 1px blue solid
+    &.active
+      background-color: color("red", "base") !important

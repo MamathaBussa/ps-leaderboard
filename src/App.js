@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import $ from 'jquery'
 import './App.sass'
-import TeamScoreDetailsSlide from './components/TeamScoreDetailsSlide'
+import Carousel from './components/Carousel'
 
 class App extends Component {
   componentDidMount() {
@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container">
-          <TeamScoreDetailsSlide />
+          <Carousel />
         </div>
       </div>
     )
