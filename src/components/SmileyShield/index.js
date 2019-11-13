@@ -5,7 +5,8 @@ class SmileyShield extends Component {
   render() {
     return (
       <div className="SmileyShield card">
-        SmileyShield
+        <img className="smiley" src="/img/smiley.png" alt="smiley" />
+        <img className="shield" src="/img/shield.png" alt="smiley" />
       </div>
     )
   }
