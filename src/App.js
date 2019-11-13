@@ -11,21 +11,8 @@ class App extends Component {
           .slideUp()
     }, 2000)
     M.Carousel.init($('.carousel'))
-    // $('.carousel').carousel()
   }
   render() {
-    // const hawkings = {
-    //   teamName: 'Hawkings',
-    //   score: {
-    //     1: 20,
-    //     2: 20,
-    //     3: 40,
-    //     4: 12,
-    //     5: 11,
-    //     6: 16,
-    //     7: 10,
-    //   },
-    // }
     return (
       <div className="App">
         <div className="container">
