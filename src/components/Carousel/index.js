@@ -23,16 +23,20 @@ class Carousel extends Component {
     autoPlayCarousel.call(this, carousel, 5000)
   }
   render() {
+    const {componentData} = this.props
     const TeamScoreDetailsList1 = TeamScoreDetails
-    const TeamScoreDetailsList2 = TeamScoreDetails.splice(5, 8)
-    TeamScoreDetailsList2.shift()
+        .filter((data, idx) => idx <= 4)
+    const TeamScoreDetailsList2 = TeamScoreDetails
+        .filter((data, idx) => idx > 4)
+
+    // TeamScoreDetailsList2.shift()
     return (
       <div
         className="carousel carousel-slider card center"
         ref={this.carouselRef}
       >
         <div className="carousel-item blue lighten-3" href="#one!">
-          <AllTeamSummarySlide />
+          <AllTeamSummarySlide componentData={componentData} />
         </div>
         <div className="carousel-item blue lighten-3" href="#two!">
           <TeamScoreDetailsSlide componentData={TeamScoreDetailsList1} />

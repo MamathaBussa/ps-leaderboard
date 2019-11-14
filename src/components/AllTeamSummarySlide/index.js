@@ -10,6 +10,7 @@ class AllTeamsSummarySlide extends Component {
         .filter((data, i) => i % 2 === 0)
     const oddIndices = componentData
         .filter((data, i) => i % 2 !== 0)
+
     return (
       <div className="AllTeamsSummarySlide card blue lighten-2">
 
@@ -38,6 +39,7 @@ class AllTeamsSummarySlide extends Component {
             )))}
           </tbody>
         </table>
+
       </div>
     )
   }
