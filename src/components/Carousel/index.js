@@ -1,9 +1,10 @@
 import React, {Component} from 'react'
 // import $ from 'jquery'
 import MaterializeCSS from 'materialize-css/dist/js/materialize'
-import {TeamScoreDetails} from '../../data'
+import LeaderBoardTitle from '../LeaderBoardTitle'
 import AllTeamSummarySlide from '../AllTeamSummarySlide'
 import TeamScoreDetailsSlide from '../TeamScoreDetailsSlide'
+import {TeamScoreDetails} from '../../data'
 
 import './styles.sass'
 
@@ -31,18 +32,21 @@ class Carousel extends Component {
     const TeamScoreDetailsList2 = TeamScoreDetails
         .filter((data, idx) => idx > 4)
     return (
-      <div
-        className="carousel carousel-slider card center"
-        ref={this.carouselRef}
-      >
-        <div className="carousel-item blue lighten-3" href="#one!">
-          <AllTeamSummarySlide componentData={componentData} />
-        </div>
-        <div className="carousel-item blue lighten-3" href="#two!">
-          <TeamScoreDetailsSlide componentData={TeamScoreDetailsList1} />
-        </div>
-        <div className="carousel-item blue lighten-3" href="#three!">
-          <TeamScoreDetailsSlide componentData={TeamScoreDetailsList2}/>
+      <div className="LeaderBoardCarousel">
+        <LeaderBoardTitle />
+        <div
+          className="carousel carousel-slider card center"
+          ref={this.carouselRef}
+        >
+          <div className="carousel-item blue lighten-3" href="#one!">
+            <AllTeamSummarySlide componentData={componentData} />
+          </div>
+          <div className="carousel-item blue lighten-3" href="#two!">
+            <TeamScoreDetailsSlide componentData={TeamScoreDetailsList1} />
+          </div>
+          <div className="carousel-item blue lighten-3" href="#three!">
+            <TeamScoreDetailsSlide componentData={TeamScoreDetailsList2}/>
+          </div>
         </div>
       </div>
     )
