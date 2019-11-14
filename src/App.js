@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import $ from 'jquery'
 import './App.sass'
-import CurrentComponent from './components/SmileyShieldTeamNameAndScoreCard'
+import CurrentComponent from './components/AllTeamSummarySlide'
 import {TeamScoreDetails} from './data'
 
 class App extends Component {
@@ -12,11 +12,10 @@ class App extends Component {
     }, 2000)
   }
   render() {
-    const componentData = TeamScoreDetails[0]
     return (
       <div className="App">
         <div className="container">
-          <CurrentComponent componentData={componentData} />
+          <CurrentComponent componentData={TeamScoreDetails} />
         </div>
       </div>
     )

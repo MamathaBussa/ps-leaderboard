@@ -125,18 +125,18 @@ export const TeamScoreDetails = [
       null,
     ],
   },
-  {
-    teamName: 'SeaHawks',
-    smileyType: 2,
-    totalScore: 92,
-    scores: [
-      11,
-      12,
-      19,
-      null,
-      null,
-      null,
-      null,
-    ],
-  },
+  // {
+  //   teamName: 'SeaHawks',
+  //   smileyType: 2,
+  //   totalScore: 92,
+  //   scores: [
+  //     11,
+  //     12,
+  //     19,
+  //     null,
+  //     null,
+  //     null,
+  //     null,
+  //   ],
+  // },
 ]
