@@ -1,13 +1,12 @@
 import React, {Component} from 'react'
-import SmileyShieldAndTeamName from
-  '../SmileyShieldAndTeamName'
+import TeamDetailedScoreRow from '../TeamDetailedScoreRow'
 // import ImageShield from '../ImageShield'
 // import TeamNameInTable from '../TeamNameInTable'
 import './styles.sass'
 
 class TeamScoreDetailsSlide extends Component {
   render() {
-    const componentData = {
+    const componentDataList = [{
       teamName: 'Falcons',
       smileyType: 1,
       totalScore: 129,
@@ -20,45 +19,29 @@ class TeamScoreDetailsSlide extends Component {
         null,
         null,
       ],
-    }
-
-    const {scores, totalScore} = componentData
+    }, {
+      teamName: 'Giants',
+      smileyType: 2,
+      totalScore: 118,
+      scores: [
+        11,
+        12,
+        19,
+        null,
+        null,
+        null,
+        null,
+      ],
+    }]
     return (
       <div className="TeamScoreDetailsSlide card blue lighten-2">
         <table>
           <tbody>
-            <tr>
-              <td>
-                <SmileyShieldAndTeamName teamName="Falcons"
-                  componentData={componentData} />
-              </td>
-              {
-                scores.map((score) => (
-                  score ?
-                  (
-                    <td>
-                      <div className="ScoreCell green white-text card">
-                        <h3>{score}</h3>
-                      </div>
-                    </td>
-                  ):(
-                    <td>
-                      <div
-                        className="ScoreCell green lighten-3 white-text card">
-                        <h3>?</h3>
-                      </div>
-                    </td>
-                  )
-                ))
-              }
-              <td>
-                <div className="TotalScoreCell green-text text-darken-1 card">
-                  <h3>
-                    {totalScore}
-                  </h3>
-                </div>
-              </td>
-            </tr>
+            {
+              componentDataList.map((componentData) =>(
+                <TeamDetailedScoreRow componentData={componentData} />
+              ))
+            }
           </tbody>
         </table>
       </div>
