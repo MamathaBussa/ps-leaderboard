@@ -3,11 +3,10 @@ import './styles.sass'
 
 class ScoreCard extends Component {
   render() {
-    let {score} = this.props.componentData || 15
-    score = score || 15
+    const {totalScore} = this.props.componentData || 15
     return (
       <h4 className="ScoreCard card green darken-1 white-text">
-        {score}
+        {totalScore}
       </h4>
     )
   }
