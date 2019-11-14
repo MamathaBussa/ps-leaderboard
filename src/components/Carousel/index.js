@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 // import $ from 'jquery'
 import MaterializeCSS from 'materialize-css/dist/js/materialize'
-import LeaderBoardTitle from '../LeaderBoardTitle'
 import AllTeamSummarySlide from '../AllTeamSummarySlide'
 import TeamScoreDetailsSlide from '../TeamScoreDetailsSlide'
 import {TeamScoreDetails} from '../../data'
@@ -33,7 +32,6 @@ class Carousel extends Component {
         .filter((data, idx) => idx > 4)
     return (
       <div className="LeaderBoardCarousel">
-        <LeaderBoardTitle />
         <div
           className="carousel carousel-slider card center"
           ref={this.carouselRef}
