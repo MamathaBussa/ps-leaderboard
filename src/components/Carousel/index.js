@@ -24,12 +24,12 @@ class Carousel extends Component {
   }
   render() {
     const {componentData} = this.props
+    // First 5 indexes
     const TeamScoreDetailsList1 = TeamScoreDetails
         .filter((data, idx) => idx <= 4)
+    //  Last 5 indexes
     const TeamScoreDetailsList2 = TeamScoreDetails
         .filter((data, idx) => idx > 4)
-
-    // TeamScoreDetailsList2.shift()
     return (
       <div
         className="carousel carousel-slider card center"
