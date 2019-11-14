@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 // import $ from 'jquery'
 import MaterializeCSS from 'materialize-css/dist/js/materialize'
+import {TeamScoreDetails} from '../../data'
 import AllTeamSummarySlide from '../AllTeamSummarySlide'
 import TeamScoreDetailsSlide from '../TeamScoreDetailsSlide'
 
@@ -22,6 +23,9 @@ class Carousel extends Component {
     autoPlayCarousel.call(this, carousel, 5000)
   }
   render() {
+    const TeamScoreDetailsList1 = TeamScoreDetails
+    const TeamScoreDetailsList2 = TeamScoreDetails.splice(5, 8)
+    TeamScoreDetailsList2.shift()
     return (
       <div
         className="carousel carousel-slider card center"
@@ -31,10 +35,10 @@ class Carousel extends Component {
           <AllTeamSummarySlide />
         </div>
         <div className="carousel-item blue lighten-3" href="#two!">
-          <TeamScoreDetailsSlide />
+          <TeamScoreDetailsSlide componentData={TeamScoreDetailsList1} />
         </div>
         <div className="carousel-item blue lighten-3" href="#three!">
-          <TeamScoreDetailsSlide />
+          <TeamScoreDetailsSlide componentData={TeamScoreDetailsList2}/>
         </div>
       </div>
     )
