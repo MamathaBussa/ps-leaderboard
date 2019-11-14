@@ -10,7 +10,26 @@ class TeamScoreDetailsSlide extends Component {
     return (
       <div className="TeamScoreDetailsSlide card blue lighten-2">
         <table>
-          <thead>
+          {/* <thead>
+            <tr>
+              <th>
+                <div className="card">
+                  Team
+                </div>
+              </th>
+              <th>
+                <div className="card">
+                  <p>Game#1</p>
+                </div>
+              </th>
+              <th>
+                <div className="card">
+                Final
+                </div>
+              </th>
+            </tr>
+          </thead>*/}
+          <tbody>
             <tr>
               <td>
                 <SmileyShieldAndTeamName teamName="Falcons"
@@ -20,17 +39,51 @@ class TeamScoreDetailsSlide extends Component {
                   }} />
               </td>
               <td>
-                <div className="ScoreCell blue-text text-darken-3 card">
+                <div className="ScoreCell green white-text card">
                   <h3>20</h3>
                 </div>
               </td>
               <td>
-                <div className="TotalScoreCell card">
-                  <h3 className="blue-text text-darken-3">20</h3>
+                <div className="ScoreCell green  white-text card">
+                  <h3>20</h3>
+                </div>
+              </td>
+              <td>
+                <div className="ScoreCell green white-text card">
+                  <h3>20</h3>
+                </div>
+              </td>
+              <td>
+                <div
+                  className={
+                    'ScoreCell green ' +
+                    ' white-text card'}
+                >
+                  <h3>20</h3>
+                </div>
+              </td>
+              <td>
+                <div className="ScoreCell green lighten-3 white-text card">
+                  <h3>?</h3>
+                </div>
+              </td>
+              <td>
+                <div className="ScoreCell green lighten-3 white-text card">
+                  <h3>?</h3>
+                </div>
+              </td>
+              <td>
+                <div className="ScoreCell green lighten-3 white-text card">
+                  <h3>?</h3>
+                </div>
+              </td>
+              <td>
+                <div className="TotalScoreCell green-text text-darken-1 card">
+                  <h3>20</h3>
                 </div>
               </td>
             </tr>
-          </thead>
+          </tbody>
         </table>
       </div>
     )
