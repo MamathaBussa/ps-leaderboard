@@ -13,16 +13,16 @@ class TeamDetailsScoreRow extends Component {
             componentData={componentData} />
         </td>
         {
-          scores.map((score) => (
+          scores.map((score, i) => (
             score ?
             (
-              <td>
+              <td key={i}>
                 <div className="ScoreCell green white-text card">
                   <h3>{score}</h3>
                 </div>
               </td>
             ):(
-              <td>
+              <td key={i}>
                 <div
                   className="ScoreCell green lighten-3 white-text card">
                   <h3>?</h3>

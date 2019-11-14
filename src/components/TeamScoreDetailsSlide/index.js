@@ -11,8 +11,8 @@ class TeamScoreDetailsSlide extends Component {
         <table>
           <tbody>
             {
-              componentDataList.map((componentData) =>(
-                <TeamDetailedScoreRow componentData={componentData} />
+              componentDataList.map((componentData, i) =>(
+                <TeamDetailedScoreRow componentData={componentData} key={i} />
               ))
             }
           </tbody>
