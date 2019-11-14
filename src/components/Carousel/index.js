@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 // import $ from 'jquery'
 import MaterializeCSS from 'materialize-css/dist/js/materialize'
 import AllTeamSummarySlide from '../AllTeamSummarySlide'
+import TeamScoreDetailsSlide from '../TeamScoreDetailsSlide'
 
 import './styles.sass'
 
@@ -20,7 +21,6 @@ class Carousel extends Component {
     MaterializeCSS.Carousel.init(carousel, carouselConfig)
     autoPlayCarousel.call(this, carousel, 5000)
   }
-
   render() {
     return (
       <div
@@ -31,10 +31,10 @@ class Carousel extends Component {
           <AllTeamSummarySlide />
         </div>
         <div className="carousel-item blue lighten-3" href="#two!">
-          <AllTeamSummarySlide />
+          <TeamScoreDetailsSlide />
         </div>
         <div className="carousel-item blue lighten-3" href="#three!">
-          <AllTeamSummarySlide />
+          <TeamScoreDetailsSlide />
         </div>
       </div>
     )

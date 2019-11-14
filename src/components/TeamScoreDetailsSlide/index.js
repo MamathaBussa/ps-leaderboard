@@ -6,6 +6,7 @@ import './styles.sass'
 class TeamScoreDetailsSlide extends Component {
   render() {
     const componentDataList = TeamScoreDetails
+    const componentDataList2 = componentDataList.splice(0, 5)
     return (
       <div className="TeamScoreDetailsSlide card blue lighten-2">
         <table>
