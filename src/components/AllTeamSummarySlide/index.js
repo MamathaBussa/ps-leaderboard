@@ -16,11 +16,13 @@ class AllTeamsSummarySlide extends Component {
 
         <table>
           <tbody>
-            {evenIndices.map(((eachComponentData) => (
-              <tr>
+            {evenIndices.map(((eachComponentData, i) => (
+              <tr key={`evens-${i}`}>
                 <td>
-                  <SmileyShieldTeamNameAndScoreCard teamName="Falcons"
-                    componentData={eachComponentData} />
+                  <SmileyShieldTeamNameAndScoreCard
+                    teamName="Falcons"
+                    componentData={eachComponentData}
+                  />
                 </td>
               </tr>
             )))}
@@ -29,11 +31,13 @@ class AllTeamsSummarySlide extends Component {
 
         <table>
           <tbody>
-            {oddIndices.map(((eachComponentData) => (
-              <tr>
+            {oddIndices.map(((eachComponentData, i) => (
+              <tr key={`odds-${i}`}>
                 <td>
-                  <SmileyShieldTeamNameAndScoreCard teamName="Falcons"
-                    componentData={eachComponentData} />
+                  <SmileyShieldTeamNameAndScoreCard
+                    teamName="Falcons"
+                    componentData={eachComponentData}
+                  />
                 </td>
               </tr>
             )))}
