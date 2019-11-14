@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import $ from 'jquery'
 import './App.sass'
-// import CurrentComponent from './components/Carousel'
+import CurrentComponent from './components/LeaderBoardTitle'
 // import {TeamScoreDetails} from './data'
 
 class App extends Component {
@@ -15,11 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container">
-          <div className="LeaderBoardTitle">
-            <div className="card brown darken-1">
-              <span className="yellow-text text-darken-1">Leader Board</span>
-            </div>
-          </div>
+          <CurrentComponent />
         </div>
       </div>
     )
