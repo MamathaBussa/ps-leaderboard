@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import $ from 'jquery'
 import './App.sass'
-import CurrentComponent from './components/TeamScoreDetailsSlide'
+import CurrentComponent from './components/Carousel'
 
 class App extends Component {
   componentDidMount() {
