@@ -6,6 +6,7 @@
   bottom: 0;
   z-index: 100;
   border-bottom: 120px saddlebrown groove;
+  background-color: white;
   border-style:ridge;
 }
 
