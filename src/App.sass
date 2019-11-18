@@ -1,13 +1,30 @@
 html
-  height: 100vh
-  background-color: #95E8F3
-.App
-  margin: 0 auto
-  min-height: 100vh
-  border: 2px black solid
-  background: url(/img/mario-bg.png) repeat-x bottom
-  background-attachment: fixed
-  .container
-    // box
-    position: relative
-    
+  background-color: skyblue
+  .App
+    .below-1070px-content
+      display: flex
+      justify-content: space-around
+      flex-direction: column
+      min-height: 100vh
+      text-align: center
+      img
+        margin: 0 auto
+    .above-1070px-content
+      display: none
+@media screen and (min-width:1071px)
+  html
+    height: 100vh
+    background-color: #95E8F3
+    .App
+      .below-1070px-content
+        display: none
+      .above-1070px-content
+        display: block
+        margin: 0 auto
+        min-height: 100vh
+        border: 2px black solid
+        background: url(/img/mario-bg.png) repeat-x bottom
+        background-attachment: fixed
+        .container
+          // box
+          position: relative

@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import $ from 'jquery'
 import './App.sass'
-import CurrentComponent from './components/Carousel'
+import CurrentComponent from './components/TeamScoreDetailsSlide'
 import {TeamScoreDetails} from './data'
 
 class App extends Component {
@@ -14,8 +14,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="container">
+        <div className="container above-1070px-content">{
           <CurrentComponent componentData={TeamScoreDetails} />
+        }</div>
+        <div className="container below-1070px-content">
+          <img src="/img/gold-coin.png"
+            width="100"
+            alt="mario with gold coins" />
+          <h4>
+            Please try us on a larger screen size :)
+          </h4>
         </div>
       </div>
     )
