@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import $ from 'jquery'
 import './App.sass'
-import CurrentComponent from './components/Carousel'
+import CurrentComponent from './components/AllTeamSummarySlide'
 import {TeamScoreDetails} from './data'
 
 class App extends Component {
@@ -14,9 +14,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="container above-1070px-content">{
+        <div className="container above-1070px-content">
           <CurrentComponent componentData={TeamScoreDetails} />
-        }</div>
+        </div>
         <div className="container below-1070px-content">
           <img src="/img/gold-coin.png"
             width="100"
@@ -24,11 +24,11 @@ class App extends Component {
           <div className="card">
             <h4 className="blue-text text-lighten-3">
               Please switch to a wider-screen with at least&nbsp;
-              <code className="blue darken-2 card">
+              <code>
                 1070px
               </code>
               &nbsp;width @ &nbsp;
-              <code className="blue darken-2 card">
+              <code>
                 100%
               </code>
               &nbsp; :)
