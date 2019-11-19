@@ -8,7 +8,7 @@ class App extends Component {
   componentDidMount() {
     setTimeout(()=> {
       $('.loading-indicator-outer-wrapper')
-          .slideUp()
+          .fadeOut()
     }, 2000)
   }
   render() {

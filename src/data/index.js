@@ -12,6 +12,11 @@ export const TeamScoreDetails = [
       null,
       null,
     ],
+    iconImages: {
+      '-1': 'https:/url1',
+      '0': 'https:/url1',
+      '1': 'https:/url2',
+    },
   },
   {
     teamName: 'Hawkings',
