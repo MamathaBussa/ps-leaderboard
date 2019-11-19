@@ -1,6 +1,7 @@
 export const TeamScoreDetails = [
   {
     teamName: 'Falcons',
+    teamImageUrl: '/img/teams/auto-rebels.png',
     smileyType: 1,
     totalScore: 129,
     scores: [
@@ -20,6 +21,7 @@ export const TeamScoreDetails = [
   },
   {
     teamName: 'Hawkings',
+    teamImageUrl: '/img/teams/energy-pirates.png',
     smileyType: 2,
     totalScore: 118,
     scores: [
@@ -34,6 +36,7 @@ export const TeamScoreDetails = [
   },
   {
     teamName: 'Chargers',
+    teamImageUrl: '/img/teams/coe-snipers.png',
     smileyType: 2,
     totalScore: 111,
     scores: [
@@ -48,6 +51,7 @@ export const TeamScoreDetails = [
   },
   {
     teamName: 'Raiders',
+    teamImageUrl: '/img/teams/travel-ninjas.png',
     smileyType: 2,
     totalScore: 110,
     scores: [
@@ -62,6 +66,7 @@ export const TeamScoreDetails = [
   },
   {
     teamName: 'Giants',
+    teamImageUrl: '/img/teams/tele-warriors.png',
     smileyType: 2,
     totalScore: 108,
     scores: [
@@ -76,6 +81,7 @@ export const TeamScoreDetails = [
   },
   {
     teamName: 'Celtics',
+    teamImageUrl: '/img/teams/fin-mafia.png',
     smileyType: 2,
     totalScore: 104,
     scores: [
@@ -90,6 +96,7 @@ export const TeamScoreDetails = [
   },
   {
     teamName: 'Broncos',
+    teamImageUrl: '/img/teams/retail-rangers.png',
     smileyType: 2,
     totalScore: 102,
     scores: [
@@ -104,6 +111,7 @@ export const TeamScoreDetails = [
   },
   {
     teamName: 'Eagles',
+    teamImageUrl: '/img/teams/core-batallion.png',
     smileyType: 2,
     totalScore: 100,
     scores: [
@@ -118,6 +126,7 @@ export const TeamScoreDetails = [
   },
   {
     teamName: 'Mavericks',
+    teamImageUrl: '/img/teams/consumer-seals.png',
     smileyType: 2,
     totalScore: 96,
     scores: [
