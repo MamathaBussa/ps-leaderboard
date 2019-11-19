@@ -1,8 +1,6 @@
 import React, {Component} from 'react'
 import SmileyShieldTeamNameAndScoreCard from
   '../SmileyShieldTeamNameAndScoreCard'
-import SmileyShield from '../SmileyShield'
-import TeamNameCard from '../TeamNameCard'
 import './styles.sass'
 
 class AllTeamsSummarySlide extends Component {
@@ -19,12 +17,29 @@ class AllTeamsSummarySlide extends Component {
           <table>
             <tbody>
               <tr>
-                <SmileyShieldTeamNameAndScoreCard
-                  componentData={componentData[0]}
-                />
+                {
+                  evenIndices.map((eachComponentData)=>(
+                    <SmileyShieldTeamNameAndScoreCard
+                      componentData={eachComponentData}
+                    />
+                  ))
+                }
               </tr>
-              <tr>Row 2</tr>
-              <tr>Row 3</tr>
+            </tbody>
+          </table>
+        </div>
+        <div className="TableWrapper">
+          <table>
+            <tbody>
+              <tr>
+                {
+                  oddIndices.map((eachComponentData)=>(
+                    <SmileyShieldTeamNameAndScoreCard
+                      componentData={eachComponentData}
+                    />
+                  ))
+                }
+              </tr>
             </tbody>
           </table>
         </div>

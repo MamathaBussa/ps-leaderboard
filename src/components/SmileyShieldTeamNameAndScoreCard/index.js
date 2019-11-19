@@ -9,7 +9,6 @@ class SmileyShieldTeamNameAndScoreCard extends Component {
     return (
       <div className="SmileyShieldTeamNameAndScoreCard">
         <SmileyShield />
-        {JSON.stringify(componentData)}
         <TeamNameWithScoreCard componentData={componentData} />
       </div>
     )

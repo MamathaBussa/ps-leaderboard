@@ -7,7 +7,7 @@ class TeamNameWithScoreCard extends Component {
   render() {
     const {componentData} = this.props
     return (
-      <div className="TeamNameWithScoreCard">
+      <div className="TeamNameWithScoreCard card">
         <TeamNameImage componentData={componentData} />
         <ScoreCard componentData={componentData} />
       </div>
