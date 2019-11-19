@@ -15,26 +15,19 @@ class AllTeamsSummarySlide extends Component {
 
     return (
       <div className="AllTeamsSummarySlide card blue lighten-2">
-        <table>
-          <tbody>
-            <tr>
-              <SmileyShieldTeamNameAndScoreCard
-                componentData={componentData[0]}
-              />
-            </tr>
-            <tr>Row 2</tr>
-            <tr>Row 3</tr>
-          </tbody>
-        </table>
-
-        <table>
-          <tbody>
-            <tr>Row 1</tr>
-            <tr>Row 2</tr>
-            <tr>Row 3</tr>
-          </tbody>
-        </table>
-
+        <div className="TableWrapper">
+          <table>
+            <tbody>
+              <tr>
+                <SmileyShieldTeamNameAndScoreCard
+                  componentData={componentData[0]}
+                />
+              </tr>
+              <tr>Row 2</tr>
+              <tr>Row 3</tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     )
   }

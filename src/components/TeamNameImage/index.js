@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import './styles.sass'
 
 class TeamNameImage extends Component {
   render() {
