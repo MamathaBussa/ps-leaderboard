@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import SmileyShieldAndTeamName from '../SmileyShieldAndTeamName'
-// import ScoreCard from '../ScoreCard'
+import ScoreCard from '../ScoreCard'
 import './styles.sass'
 
 class SmileyShieldTeamNameAndScoreCard extends Component {
@@ -9,6 +9,7 @@ class SmileyShieldTeamNameAndScoreCard extends Component {
     return (
       <div className="SmileyShieldTeamNameAndScoreCard">
         <SmileyShieldAndTeamName componentData={componentData} />
+        <ScoreCard componentData={componentData} />
       </div>
     )
   }

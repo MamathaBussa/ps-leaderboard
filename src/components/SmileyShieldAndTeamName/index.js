@@ -8,10 +8,8 @@ class SmileyShieldAndTeamName extends Component {
     const {componentData} = this.props
     return (
       <div className="SmileyShieldAndTeamName">
-        <SmileyShield />
-        <TeamNameCard
-          componentData={componentData}
-        />
+        <SmileyShield componentData={componentData} />
+        <TeamNameCard componentData={componentData} />
       </div>
     )
   }

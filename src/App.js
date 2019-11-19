@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import $ from 'jquery'
 import './App.sass'
 import CurrentComponent from './components/AllTeamSummarySlide'
-import {TeamScoreDetails} from './data'
+import {LeaderBoardData} from './data'
 
 class App extends Component {
   componentDidMount() {
@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container above-1070px-content">
-          <CurrentComponent componentData={TeamScoreDetails} />
+          <CurrentComponent componentData={LeaderBoardData} />
         </div>
         <div className="container below-1070px-content">
           <img src="/img/gold-coin.png"

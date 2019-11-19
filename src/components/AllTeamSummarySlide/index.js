@@ -13,7 +13,6 @@ class AllTeamsSummarySlide extends Component {
 
     return (
       <div className="AllTeamsSummarySlide card blue lighten-2">
-
         <table>
           <tbody>
             {evenIndices.map(((eachComponentData, i) => (

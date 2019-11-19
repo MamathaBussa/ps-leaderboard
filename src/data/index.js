@@ -1,4 +1,4 @@
-export const TeamScoreDetails = [
+export const LeaderBoardData = [
   {
     teamName: 'Falcons',
     teamImageUrl: '/img/teams/auto-rebels.png',
