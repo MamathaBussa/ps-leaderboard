@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import SmileyShieldTeamNameAndScoreCard from
   '../SmileyShieldTeamNameAndScoreCard'
+import SmileyShield from '../SmileyShield'
+import TeamNameCard from '../TeamNameCard'
 import './styles.sass'
 
 class AllTeamsSummarySlide extends Component {
@@ -15,31 +17,21 @@ class AllTeamsSummarySlide extends Component {
       <div className="AllTeamsSummarySlide card blue lighten-2">
         <table>
           <tbody>
-            {evenIndices.map(((eachComponentData, i) => (
-              <tr key={`evens-${i}`}>
-                <td>
-                  <SmileyShieldTeamNameAndScoreCard
-                    teamName="Falcons"
-                    componentData={eachComponentData}
-                  />
-                </td>
-              </tr>
-            )))}
+            <tr>
+              <SmileyShieldTeamNameAndScoreCard
+                componentData={componentData[0]}
+              />
+            </tr>
+            <tr>Row 2</tr>
+            <tr>Row 3</tr>
           </tbody>
         </table>
 
         <table>
           <tbody>
-            {oddIndices.map(((eachComponentData, i) => (
-              <tr key={`odds-${i}`}>
-                <td>
-                  <SmileyShieldTeamNameAndScoreCard
-                    teamName="Falcons"
-                    componentData={eachComponentData}
-                  />
-                </td>
-              </tr>
-            )))}
+            <tr>Row 1</tr>
+            <tr>Row 2</tr>
+            <tr>Row 3</tr>
           </tbody>
         </table>
 
@@ -49,3 +41,41 @@ class AllTeamsSummarySlide extends Component {
 }
 
 export default AllTeamsSummarySlide
+
+
+/*
+<div className="col s6">
+  <table>
+    <tbody>
+      {evenIndices.map(((eachComponentData, i) => (
+        <tr key={`evens-${i}`}>
+          <td>
+            <SmileyShieldTeamNameAndScoreCard
+              teamName="Falcons"
+              componentData={eachComponentData}
+            />
+          </td>
+        </tr>
+      )))}
+    </tbody>
+  </table>
+</div>
+
+<div className="col s6">
+
+  <table>
+    <tbody>
+      {oddIndices.map(((eachComponentData, i) => (
+        <tr key={`odds-${i}`}>
+          <td>
+            <SmileyShieldTeamNameAndScoreCard
+              teamName="Falcons"
+              componentData={eachComponentData}
+            />
+          </td>
+        </tr>
+      )))}
+    </tbody>
+  </table>
+</div>
+*/

@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import SmileyShieldAndTeamName from '../SmileyShieldAndTeamName'
-import ScoreCard from '../ScoreCard'
+import SmileyShield from '../SmileyShield'
+import TeamNameWithScoreCard from '../TeamNameWithScoreCard'
 import './styles.sass'
 
 class SmileyShieldTeamNameAndScoreCard extends Component {
@@ -8,8 +8,9 @@ class SmileyShieldTeamNameAndScoreCard extends Component {
     const {componentData} = this.props
     return (
       <div className="SmileyShieldTeamNameAndScoreCard">
-        <SmileyShieldAndTeamName componentData={componentData} />
-        <ScoreCard componentData={componentData} />
+        <SmileyShield />
+        {JSON.stringify(componentData)}
+        <TeamNameWithScoreCard componentData={componentData} />
       </div>
     )
   }

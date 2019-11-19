@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import TeamNameImage from '../TeamNameImage'
+import TeamName from '../TeamNameImage'
 import './styles.sass'
 
 class TeamNameCard extends Component {
@@ -9,7 +9,7 @@ class TeamNameCard extends Component {
       <div
         className="TeamNameCard card yellow lighten-2 red-text text-darken-2"
       >
-        <TeamNameImage componentData={componentData} />
+        <TeamName componentData={componentData} />
       </div>
     )
   }
