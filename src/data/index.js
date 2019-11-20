@@ -1,6 +1,6 @@
 export const LeaderBoardData = [
   {
-    teamName: 'Falcons',
+    teamName: 'Auto Rebels',
     teamImageUrl: '/img/teams/auto-rebels.png',
     teamShieldUrl: '/img/shields/auto-rebels.png',
     smileyType: 1,
@@ -21,7 +21,7 @@ export const LeaderBoardData = [
     },
   },
   {
-    teamName: 'Hawkings',
+    teamName: 'Energy Pirates',
     teamShieldUrl: '/img/shields/energy-pirates.png',
     teamImageUrl: '/img/teams/energy-pirates.png',
     smileyType: 2,
@@ -37,7 +37,7 @@ export const LeaderBoardData = [
     ],
   },
   {
-    teamName: 'Chargers',
+    teamName: 'COE Snipers',
     teamShieldUrl: '/img/shields/coe-snipers.png',
     teamImageUrl: '/img/teams/coe-snipers.png',
     smileyType: 2,
@@ -53,7 +53,7 @@ export const LeaderBoardData = [
     ],
   },
   {
-    teamName: 'Raiders',
+    teamName: 'Travel Ninjas',
     teamShieldUrl: '/img/shields/travel-ninjas.png',
     teamImageUrl: '/img/teams/travel-ninjas.png',
     smileyType: 2,
@@ -85,7 +85,7 @@ export const LeaderBoardData = [
     ],
   },
   {
-    teamName: 'Celtics',
+    teamName: 'Fin Mafia',
     teamShieldUrl: '/img/shields/fin-mafia.png',
     teamImageUrl: '/img/teams/fin-mafia.png',
     smileyType: 2,
@@ -117,7 +117,7 @@ export const LeaderBoardData = [
     ],
   },
   {
-    teamName: 'Eagles',
+    teamName: 'Core Battallion',
     teamShieldUrl: '/img/shields/core-battallion.png',
     teamImageUrl: '/img/teams/core-batallion.png',
     smileyType: 2,
@@ -133,7 +133,7 @@ export const LeaderBoardData = [
     ],
   },
   {
-    teamName: 'Mavericks',
+    teamName: 'Consumer Seals',
     teamShieldUrl: '/img/shields/consumer-seals.png',
     teamImageUrl: '/img/teams/consumer-seals.png',
     smileyType: 2,
@@ -148,18 +148,4 @@ export const LeaderBoardData = [
       null,
     ],
   },
-  // {
-  //   teamName: 'SeaHawks',
-  //   smileyType: 2,
-  //   totalScore: 92,
-  //   scores: [
-  //     11,
-  //     12,
-  //     19,
-  //     null,
-  //     null,
-  //     null,
-  //     null,
-  //   ],
-  // },
 ]
