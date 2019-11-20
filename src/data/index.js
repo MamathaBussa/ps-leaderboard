@@ -75,7 +75,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Giants',
     teamShieldUrl: '/img/shields/tele-warriors.png',
-    teamleadEmojiURL: '/img/people-emoji/Sad2.png',
+    teamleadEmojiURL: '/img/people-emoji/Happy2.png',
     teamImageUrl: '/img/teams/tele-warriors.png',
     smileyType: 2,
     totalScore: 108,
@@ -109,7 +109,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Broncos',
     teamShieldUrl: '/img/shields/retail-rangers.png',
-    teamleadEmojiURL: '/img/people-emoji/Happy2.png',
+    teamleadEmojiURL: '/img/people-emoji/Flat.png',
     teamImageUrl: '/img/teams/retail-rangers.png',
     smileyType: 2,
     totalScore: 102,

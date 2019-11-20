@@ -12,7 +12,6 @@ class App extends Component {
     }, 2000)
   }
   render() {
-    alert(LeaderBoardData[0].type)
     return (
       <div className="App">
         <div className="container above-1070px-content">
