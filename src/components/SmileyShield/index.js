@@ -3,9 +3,10 @@ import './styles.sass'
 
 class SmileyShield extends Component {
   render() {
+    const {teamShieldUrl, teamName}=this.props.componentData
     return (
       <div className="SmileyShield">
-        <img src="/img/shields/energy-pirates.png" alt="auto rebels" />
+        <img src={teamShieldUrl} alt={teamName} title={teamName} />
       </div>
     )
   }

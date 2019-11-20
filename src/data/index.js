@@ -2,6 +2,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Falcons',
     teamImageUrl: '/img/teams/auto-rebels.png',
+    teamShieldUrl: '/img/shields/auto-rebels.png',
     smileyType: 1,
     totalScore: 129,
     scores: [
@@ -21,6 +22,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Hawkings',
+    teamShieldUrl: '/img/shields/auto-rebels.png',
     teamImageUrl: '/img/teams/energy-pirates.png',
     smileyType: 2,
     totalScore: 118,
@@ -36,6 +38,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Chargers',
+    teamShieldUrl: '/img/shields/auto-rebels.png',
     teamImageUrl: '/img/teams/coe-snipers.png',
     smileyType: 2,
     totalScore: 111,
@@ -51,6 +54,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Raiders',
+    teamShieldUrl: '/img/shields/auto-rebels.png',
     teamImageUrl: '/img/teams/travel-ninjas.png',
     smileyType: 2,
     totalScore: 110,
@@ -66,6 +70,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Giants',
+    teamShieldUrl: '/img/shields/auto-rebels.png',
     teamImageUrl: '/img/teams/tele-warriors.png',
     smileyType: 2,
     totalScore: 108,
@@ -81,6 +86,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Celtics',
+    teamShieldUrl: '/img/shields/auto-rebels.png',
     teamImageUrl: '/img/teams/fin-mafia.png',
     smileyType: 2,
     totalScore: 104,
@@ -96,6 +102,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Broncos',
+    teamShieldUrl: '/img/shields/auto-rebels.png',
     teamImageUrl: '/img/teams/retail-rangers.png',
     smileyType: 2,
     totalScore: 102,
@@ -111,6 +118,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Eagles',
+    teamShieldUrl: '/img/shields/auto-rebels.png',
     teamImageUrl: '/img/teams/core-batallion.png',
     smileyType: 2,
     totalScore: 100,
@@ -126,6 +134,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Mavericks',
+    teamShieldUrl: '/img/shields/auto-rebels.png',
     teamImageUrl: '/img/teams/consumer-seals.png',
     smileyType: 2,
     totalScore: 96,
