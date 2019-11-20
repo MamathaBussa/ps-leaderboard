@@ -3,6 +3,8 @@ import SmileyShieldTeamNameAndScoreCard from
   '../SmileyShieldTeamNameAndScoreCard'
 import SmileyShieldTeamNameAndScoreCardA from
   '../SmileyShieldTeamNameAndScoreCard-A'
+import SmileyShieldTeamNameAndScoreCardB from
+  '../SmileyShieldTeamNameAndScoreCard-B'
 import './styles.sass'
 
 class AllTeamsSummarySlide extends Component {
@@ -28,11 +30,13 @@ class AllTeamsSummarySlide extends Component {
                         <SmileyShieldTeamNameAndScoreCardA
                           componentData={eachComponentData}
                         />
-                      ) : eachComponentData.type !== 'A' ? (
-                        <SmileyShieldTeamNameAndScoreCard
+                      ) : eachComponentData.type === 'B' ? (
+                        <SmileyShieldTeamNameAndScoreCardB
                           componentData={eachComponentData}
                         />
-                        ): 'No!'
+                        ): <SmileyShieldTeamNameAndScoreCard
+                          componentData={eachComponentData}
+                        />
                       }
                     </td>
                   </tr>
