@@ -54,7 +54,7 @@ class AllTeamsSummarySlide extends Component {
                     key={`${i}-smiley-shield-team-name-and-score-card-odd`}
                   >
                     <td>
-                      <SmileyShieldTeamNameAndScoreCardA
+                      <SmileyShieldTeamNameAndScoreCard
                         componentData={eachComponentData}
                       />
                     </td>
