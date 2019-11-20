@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import $ from 'jquery'
 import './App.sass'
 import CurrentComponent from './components/AllTeamSummarySlide'
-import {LeaderBoardData} from './data'
+import {ModifiedLeaderBoardData as LeaderBoardData} from './data/modified'
 
 class App extends Component {
   componentDidMount() {
@@ -12,6 +12,7 @@ class App extends Component {
     }, 2000)
   }
   render() {
+    alert(LeaderBoardData[0].type)
     return (
       <div className="App">
         <div className="container above-1070px-content">
