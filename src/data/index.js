@@ -1,6 +1,6 @@
 export const LeaderBoardData = [
   {
-    teamName: 'Falcons',
+    teamName: 'Auto Rebels',
     teamImageUrl: '/img/teams/auto-rebels.png',
     teamShieldUrl: '/img/shields/auto-rebels.png',
     teamleadEmojiURL: '/img/people-emoji/Happy2.png',
@@ -22,7 +22,7 @@ export const LeaderBoardData = [
     },
   },
   {
-    teamName: 'Hawkings',
+    teamName: 'Energy Pirates',
     teamShieldUrl: '/img/shields/energy-pirates.png',
     teamleadEmojiURL: '/img/people-emoji/Flat.png',
     teamImageUrl: '/img/teams/energy-pirates.png',
@@ -39,7 +39,7 @@ export const LeaderBoardData = [
     ],
   },
   {
-    teamName: 'Chargers',
+    teamName: 'COE Snipers',
     teamShieldUrl: '/img/shields/coe-snipers.png',
     teamleadEmojiURL: '/img/people-emoji/Happy1.png',
     teamImageUrl: '/img/teams/coe-snipers.png',
@@ -56,7 +56,7 @@ export const LeaderBoardData = [
     ],
   },
   {
-    teamName: 'Raiders',
+    teamName: 'Travel Ninjas',
     teamShieldUrl: '/img/shields/travel-ninjas.png',
     teamleadEmojiURL: '/img/people-emoji/Sad1.png',
     teamImageUrl: '/img/teams/travel-ninjas.png',
@@ -90,7 +90,7 @@ export const LeaderBoardData = [
     ],
   },
   {
-    teamName: 'Celtics',
+    teamName: 'Fin Mafia',
     teamShieldUrl: '/img/shields/fin-mafia.png',
     teamleadEmojiURL: '/img/people-emoji/Flat.png',
     teamImageUrl: '/img/teams/fin-mafia.png',
@@ -124,7 +124,7 @@ export const LeaderBoardData = [
     ],
   },
   {
-    teamName: 'Eagles',
+    teamName: 'Core Battallion',
     teamShieldUrl: '/img/shields/core-battallion.png',
     teamleadEmojiURL: '/img/people-emoji/Happy1.png',
     teamImageUrl: '/img/teams/core-batallion.png',
@@ -141,7 +141,7 @@ export const LeaderBoardData = [
     ],
   },
   {
-    teamName: 'Mavericks',
+    teamName: 'Consumer Seals',
     teamShieldUrl: '/img/shields/consumer-seals.png',
     teamleadEmojiURL: '/img/people-emoji/Sad1.png',
     teamImageUrl: '/img/teams/consumer-seals.png',
@@ -157,18 +157,4 @@ export const LeaderBoardData = [
       null,
     ],
   },
-  // {
-  //   teamName: 'SeaHawks',
-  //   smileyType: 2,
-  //   totalScore: 92,
-  //   scores: [
-  //     11,
-  //     12,
-  //     19,
-  //     null,
-  //     null,
-  //     null,
-  //     null,
-  //   ],
-  // },
 ]
