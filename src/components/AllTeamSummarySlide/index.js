@@ -16,30 +16,38 @@ class AllTeamsSummarySlide extends Component {
         <div className="TableWrapper">
           <table>
             <tbody>
-              <tr>
-                {
-                  evenIndices.map((eachComponentData)=>(
-                    <SmileyShieldTeamNameAndScoreCard
-                      componentData={eachComponentData}
-                    />
-                  ))
-                }
-              </tr>
+              {
+                evenIndices.map((eachComponentData, i)=>(
+                  <tr
+                    key={`${i}-smiley-shield-team-name-and-score-card-even`}
+                  >
+                    <td>
+                      <SmileyShieldTeamNameAndScoreCard
+                        componentData={eachComponentData}
+                      />
+                    </td>
+                  </tr>
+                ))
+              }
             </tbody>
           </table>
         </div>
         <div className="TableWrapper">
           <table>
             <tbody>
-              <tr>
-                {
-                  oddIndices.map((eachComponentData)=>(
-                    <SmileyShieldTeamNameAndScoreCard
-                      componentData={eachComponentData}
-                    />
-                  ))
-                }
-              </tr>
+              {
+                oddIndices.map((eachComponentData, i)=>(
+                  <tr
+                    key={`${i}-smiley-shield-team-name-and-score-card-odd`}
+                  >
+                    <td>
+                      <SmileyShieldTeamNameAndScoreCard
+                        componentData={eachComponentData}
+                      />
+                    </td>
+                  </tr>
+                ))
+              }
             </tbody>
           </table>
         </div>
