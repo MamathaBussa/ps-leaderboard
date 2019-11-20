@@ -12,7 +12,7 @@ class AllTeamsSummarySlide extends Component {
         .filter((data, i) => i % 2 !== 0)
 
     return (
-      <div className="AllTeamsSummarySlide card yellow lighten-4">
+      <div className="AllTeamsSummarySlide">
         <div className="TableWrapper">
           <table>
             <tbody>
