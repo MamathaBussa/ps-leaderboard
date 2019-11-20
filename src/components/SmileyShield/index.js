@@ -6,6 +6,11 @@ class SmileyShield extends Component {
     const {teamShieldUrl, teamName}=this.props.componentData
     return (
       <div className="SmileyShield card">
+        <img src="img/people-emoji/Happy2.png"
+          className="people-emoji"
+          alt={teamName}
+          title={teamName}
+        />
         <img src={teamShieldUrl} alt={teamName} title={teamName} />
       </div>
     )
