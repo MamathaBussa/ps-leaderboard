@@ -1,3 +1,42 @@
+export const eventData = [
+  {
+    eventName: 'Quiz 1',
+    eventId: 1,
+    order: 100,
+  },
+  {
+    eventName: 'Quiz 2',
+    eventId: 2,
+    order: 1,
+  },
+  {
+    eventName: 'Quiz 3',
+    eventId: 3,
+    order: 100,
+  },
+  {
+    eventName: 'Quiz 4',
+    eventId: 4,
+    order: 100,
+  },
+  {
+    eventName: 'Quiz 5',
+    eventId: 5,
+    order: 100,
+  },
+  {
+    eventName: 'Quiz 6',
+    eventId: 6,
+    order: 100,
+  },
+  {
+    eventName: 'Quiz 7',
+    eventId: 7,
+    order: 100,
+  },
+].sort((a, b) => a.order - b.order)
+
+
 export const LeaderBoardData = [
   {
     teamName: 'Auto Rebels',
@@ -5,49 +44,44 @@ export const LeaderBoardData = [
     teamShieldUrl: '/img/shields/auto-rebels.png',
     smileyType: 1,
     totalScore: 129,
+    smileyUrl: 'http://.........',
     scores: [
       {
         eventId: 1,
-        score: 9,
+        score: 1,
         order: 1,
       },
       {
         eventId: 1,
-        score: 9,
-        order: 1,
+        score: 2,
+        order: 2,
       },
       {
         eventId: 1,
-        score: 9,
-        order: 1,
+        score: 100,
+        order: 100,
       },
       {
         eventId: 1,
-        score: 9,
-        order: 1,
+        score: 100,
+        order: 100,
       },
       {
         eventId: 1,
-        score: 9,
-        order: 1,
+        score: 3,
+        order: 3,
       },
       {
         eventId: 1,
-        score: 9,
-        order: 1,
+        score: 100,
+        order: 100,
       },
       {
         eventId: 1,
-        score: 9,
-        order: 1,
+        score: 4,
+        order: 4,
       },
-
     ],
-    iconImages: {
-      '-1': 'https:/url1',
-      '0': 'https:/url1',
-      '1': 'https:/url2',
-    },
   },
   {
     teamName: 'Energy Pirates',
@@ -365,3 +399,8 @@ export const LeaderBoardData = [
     ],
   },
 ]
+    .map((eachBoard) => {
+      // const {scores} = eachBoard
+      eachBoard.scores.sort((a, b) => a.order - b.order)
+      return eachBoard
+    })
