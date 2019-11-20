@@ -6,13 +6,42 @@ export const LeaderBoardData = [
     smileyType: 1,
     totalScore: 129,
     scores: [
-      12,
-      15,
-      11,
-      null,
-      null,
-      null,
-      null,
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+
     ],
     iconImages: {
       '-1': 'https:/url1',
@@ -27,13 +56,42 @@ export const LeaderBoardData = [
     smileyType: 2,
     totalScore: 118,
     scores: [
-      11,
-      12,
-      19,
-      null,
-      null,
-      null,
-      null,
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+
     ],
   },
   {
@@ -43,13 +101,42 @@ export const LeaderBoardData = [
     smileyType: 2,
     totalScore: 111,
     scores: [
-      11,
-      12,
-      19,
-      null,
-      null,
-      null,
-      null,
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+
     ],
   },
   {
@@ -59,13 +146,42 @@ export const LeaderBoardData = [
     smileyType: 2,
     totalScore: 110,
     scores: [
-      11,
-      12,
-      19,
-      null,
-      null,
-      null,
-      null,
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+
     ],
   },
   {
@@ -75,13 +191,42 @@ export const LeaderBoardData = [
     smileyType: 2,
     totalScore: 108,
     scores: [
-      11,
-      12,
-      19,
-      null,
-      null,
-      null,
-      null,
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+
     ],
   },
   {
@@ -91,13 +236,42 @@ export const LeaderBoardData = [
     smileyType: 2,
     totalScore: 104,
     scores: [
-      11,
-      12,
-      19,
-      null,
-      null,
-      null,
-      null,
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+
     ],
   },
   {
@@ -107,29 +281,42 @@ export const LeaderBoardData = [
     smileyType: 2,
     totalScore: 102,
     scores: [
-      11,
-      12,
-      19,
-      null,
-      null,
-      null,
-      null,
-    ],
-  },
-  {
-    teamName: 'Core Battallion',
-    teamShieldUrl: '/img/shields/core-battallion.png',
-    teamImageUrl: '/img/teams/core-batallion.png',
-    smileyType: 2,
-    totalScore: 100,
-    scores: [
-      11,
-      12,
-      19,
-      null,
-      null,
-      null,
-      null,
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+
     ],
   },
   {
@@ -139,13 +326,42 @@ export const LeaderBoardData = [
     smileyType: 2,
     totalScore: 96,
     scores: [
-      11,
-      12,
-      19,
-      null,
-      null,
-      null,
-      null,
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+
     ],
   },
 ]

@@ -13,12 +13,12 @@ class TeamDetailsScoreRow extends Component {
             componentData={componentData} />
         </td>
         {
-          scores.map((score, i) => (
-            score ?
+          scores.map((eachScore, i) => (
+            eachScore && eachScore.score ?
             (
-              <td key={i}>
+              <td key={`${i}-each-score`}>
                 <div className="ScoreCell green white-text card">
-                  <h3>{score}</h3>
+                  <h3>{eachScore.score}</h3>
                 </div>
               </td>
             ):(
