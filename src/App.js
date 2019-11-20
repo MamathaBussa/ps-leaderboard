@@ -15,10 +15,12 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container above-1070px-content">
-          <img
-            src="/img/shields/retail-rangers.png"
-            className="app-title-image"
-            alt="heading"/>
+          <div className="app-title">
+            <img
+              src="/img/shields/retail-rangers.png"
+              className="app-title-image"
+              alt="heading"/>
+          </div>
           <CurrentComponent componentData={LeaderBoardData} />
         </div>
         <div className="container below-1070px-content">
