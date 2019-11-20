@@ -24,7 +24,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Hawkings',
     teamShieldUrl: '/img/shields/energy-pirates.png',
-    teamleadEmojiURL: '/img/people-emoji/Happy2.png',
+    teamleadEmojiURL: '/img/people-emoji/Flat.png',
     teamImageUrl: '/img/teams/energy-pirates.png',
     smileyType: 2,
     totalScore: 118,
@@ -41,7 +41,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Chargers',
     teamShieldUrl: '/img/shields/coe-snipers.png',
-    teamleadEmojiURL: '/img/people-emoji/Happy2.png',
+    teamleadEmojiURL: '/img/people-emoji/Happy1.png',
     teamImageUrl: '/img/teams/coe-snipers.png',
     smileyType: 2,
     totalScore: 111,
@@ -58,7 +58,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Raiders',
     teamShieldUrl: '/img/shields/travel-ninjas.png',
-    teamleadEmojiURL: '/img/people-emoji/Happy2.png',
+    teamleadEmojiURL: '/img/people-emoji/Sad1.png',
     teamImageUrl: '/img/teams/travel-ninjas.png',
     smileyType: 2,
     totalScore: 110,
@@ -75,7 +75,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Giants',
     teamShieldUrl: '/img/shields/tele-warriors.png',
-    teamleadEmojiURL: '/img/people-emoji/Happy2.png',
+    teamleadEmojiURL: '/img/people-emoji/Sad2.png',
     teamImageUrl: '/img/teams/tele-warriors.png',
     smileyType: 2,
     totalScore: 108,
@@ -92,7 +92,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Celtics',
     teamShieldUrl: '/img/shields/fin-mafia.png',
-    teamleadEmojiURL: '/img/people-emoji/Happy2.png',
+    teamleadEmojiURL: '/img/people-emoji/Flat.png',
     teamImageUrl: '/img/teams/fin-mafia.png',
     smileyType: 2,
     totalScore: 104,
@@ -126,7 +126,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Eagles',
     teamShieldUrl: '/img/shields/core-battallion.png',
-    teamleadEmojiURL: '/img/people-emoji/Happy2.png',
+    teamleadEmojiURL: '/img/people-emoji/Happy1.png',
     teamImageUrl: '/img/teams/core-batallion.png',
     smileyType: 2,
     totalScore: 100,
@@ -143,7 +143,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Mavericks',
     teamShieldUrl: '/img/shields/consumer-seals.png',
-    teamleadEmojiURL: '/img/people-emoji/Happy2.png',
+    teamleadEmojiURL: '/img/people-emoji/Sad1.png',
     teamImageUrl: '/img/teams/consumer-seals.png',
     smileyType: 2,
     totalScore: 96,
