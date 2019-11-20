@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import $ from 'jquery'
 import './App.sass'
-import CurrentComponent from './components/TeamScoreDetailsSlide'
+import CurrentComponent from './components/AllTeamSummarySlide'
 import {LeaderBoardData} from './data'
 
 class App extends Component {
