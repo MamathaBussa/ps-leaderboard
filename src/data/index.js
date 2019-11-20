@@ -22,7 +22,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Hawkings',
-    teamShieldUrl: '/img/shields/auto-rebels.png',
+    teamShieldUrl: '/img/shields/energy-pirates.png',
     teamImageUrl: '/img/teams/energy-pirates.png',
     smileyType: 2,
     totalScore: 118,
@@ -38,7 +38,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Chargers',
-    teamShieldUrl: '/img/shields/auto-rebels.png',
+    teamShieldUrl: '/img/shields/coe-snipers.png',
     teamImageUrl: '/img/teams/coe-snipers.png',
     smileyType: 2,
     totalScore: 111,
@@ -54,7 +54,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Raiders',
-    teamShieldUrl: '/img/shields/auto-rebels.png',
+    teamShieldUrl: '/img/shields/travel-ninjas.png',
     teamImageUrl: '/img/teams/travel-ninjas.png',
     smileyType: 2,
     totalScore: 110,
@@ -70,7 +70,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Giants',
-    teamShieldUrl: '/img/shields/auto-rebels.png',
+    teamShieldUrl: '/img/shields/tele-warriors.png',
     teamImageUrl: '/img/teams/tele-warriors.png',
     smileyType: 2,
     totalScore: 108,
@@ -86,7 +86,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Celtics',
-    teamShieldUrl: '/img/shields/auto-rebels.png',
+    teamShieldUrl: '/img/shields/fin-mafia.png',
     teamImageUrl: '/img/teams/fin-mafia.png',
     smileyType: 2,
     totalScore: 104,
@@ -102,7 +102,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Broncos',
-    teamShieldUrl: '/img/shields/auto-rebels.png',
+    teamShieldUrl: '/img/shields/retail-rangers.png',
     teamImageUrl: '/img/teams/retail-rangers.png',
     smileyType: 2,
     totalScore: 102,
@@ -118,7 +118,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Eagles',
-    teamShieldUrl: '/img/shields/auto-rebels.png',
+    teamShieldUrl: '/img/shields/core-battallion.png',
     teamImageUrl: '/img/teams/core-batallion.png',
     smileyType: 2,
     totalScore: 100,
@@ -134,7 +134,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Mavericks',
-    teamShieldUrl: '/img/shields/auto-rebels.png',
+    teamShieldUrl: '/img/shields/consumer-seals.png',
     teamImageUrl: '/img/teams/consumer-seals.png',
     smileyType: 2,
     totalScore: 96,
