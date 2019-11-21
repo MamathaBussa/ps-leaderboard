@@ -1,6 +1,7 @@
 import React from 'react'
 import SmileyShieldTeamNameAndScoreCard
   from '../SmileyShieldTeamNameAndScoreCard'
+import './styles.sass'
 
 const TeamSummaryTable = ({componentData}) => {
   return (
