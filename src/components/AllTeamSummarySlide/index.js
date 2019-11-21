@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
-import SmileyShieldTeamNameAndScoreCard from
-  '../SmileyShieldTeamNameAndScoreCard'
+import TeamSummaryTable from './../TeamSummaryTable'
+// import SmileyShieldTeamNameAndScoreCard from
+//   '../SmileyShieldTeamNameAndScoreCard'
 import './styles.sass'
 
 class AllTeamsSummarySlide extends Component {
@@ -12,40 +13,14 @@ class AllTeamsSummarySlide extends Component {
         .filter((data, i) => i % 2 !== 0)
 
     return (
-      <div className="AllTeamsSummarySlide card yellow lighten-4">
-        <div className="TableWrapper">
-          <table>
-            <tbody>
-              {
-                evenIndices.map((eachComponentData, i)=>(
-                  <tr key={`${i}-all-teams-summary-slide-even`}>
-                    <td >
-                      <SmileyShieldTeamNameAndScoreCard
-                        componentData={eachComponentData}
-                      />
-                    </td>
-                  </tr>
-                ))
-              }
-            </tbody>
-          </table>
-        </div>
-        <div className="TableWrapper">
-          <table>
-            <tbody>
-              {
-                oddIndices.map((eachComponentData, i)=>(
-                  <tr key={`${i}-all-team-summary-slide-odd`}>
-                    <td >
-                      <SmileyShieldTeamNameAndScoreCard
-                        componentData={eachComponentData}
-                      />
-                    </td>
-                  </tr>
-                ))
-              }
-            </tbody>
-          </table>
+      <div className="AllTeamsSummarySlide">
+        <div className="row">
+          <div className="col s6">
+            <TeamSummaryTable componentData={evenIndices} />
+          </div>
+          <div className="col s6">
+            <TeamSummaryTable componentData={oddIndices}/>
+          </div>
         </div>
       </div>
     )
@@ -54,7 +29,43 @@ class AllTeamsSummarySlide extends Component {
 
 export default AllTeamsSummarySlide
 
-
+/*
+DESIGN 2
+<div className="TableWrapper">
+  <table>
+    <tbody>
+      {
+        evenIndices.map((eachComponentData, i)=>(
+          <tr key={`${i}-all-teams-summary-slide-even`}>
+            <td >
+              <SmileyShieldTeamNameAndScoreCard
+                componentData={eachComponentData}
+              />
+            </td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>
+<div className="TableWrapper">
+  <table>
+    <tbody>
+      {
+        oddIndices.map((eachComponentData, i)=>(
+          <tr key={`${i}-all-team-summary-slide-odd`}>
+            <td >
+              <SmileyShieldTeamNameAndScoreCard
+                componentData={eachComponentData}
+              />
+            </td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>
+*/
 /*
 <div className="col s6">
   <table>

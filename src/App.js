@@ -2,8 +2,8 @@ import React, {Component} from 'react'
 import $ from 'jquery'
 import './App.sass'
 import AppTitle from './components/AppTitle'
-// import CurrentComponent from './components/AllTeamSummarySlide'
-// import {LeaderBoardData} from './data'
+import CurrentComponent from './components/AllTeamSummarySlide'
+import {LeaderBoardData} from './data'
 
 class App extends Component {
   componentDidMount() {
@@ -19,9 +19,9 @@ class App extends Component {
           <AppTitle componentData={{
             logoImg: '/img/logos/battle-ground-logo-transparent.png',
           }}/>
-          {/* <div className="container">
+          <div className="container">
             <CurrentComponent componentData={LeaderBoardData} />
-          </div>*/}
+          </div>
         </div>
         <div className="container below-1070px-content">
           <img src="/img/gold-coin.png"
