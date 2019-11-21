@@ -40,8 +40,8 @@ export const eventData = [
 export const LeaderBoardData = [
   {
     teamName: 'Auto Rebels',
+    teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/auto-rebels.png',
-    teamShieldUrl: '/img/shields/auto-rebels.png',
     smileyType: 1,
     totalScore: 129,
     smileyUrl: 'http://.........',
@@ -85,7 +85,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Energy Pirates',
-    teamShieldUrl: '/img/shields/energy-pirates.png',
+    teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/energy-pirates.png',
     smileyType: 2,
     totalScore: 118,
@@ -130,7 +130,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'COE Snipers',
-    teamShieldUrl: '/img/shields/coe-snipers.png',
+    teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/coe-snipers.png',
     smileyType: 2,
     totalScore: 111,
@@ -175,7 +175,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Travel Ninjas',
-    teamShieldUrl: '/img/shields/travel-ninjas.png',
+    teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/travel-ninjas.png',
     smileyType: 2,
     totalScore: 110,
@@ -220,7 +220,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Giants',
-    teamShieldUrl: '/img/shields/tele-warriors.png',
+    teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/tele-warriors.png',
     smileyType: 2,
     totalScore: 108,
@@ -265,7 +265,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Fin Mafia',
-    teamShieldUrl: '/img/shields/fin-mafia.png',
+    teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/fin-mafia.png',
     smileyType: 2,
     totalScore: 104,
@@ -310,7 +310,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Broncos',
-    teamShieldUrl: '/img/shields/retail-rangers.png',
+    teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/retail-rangers.png',
     smileyType: 2,
     totalScore: 102,
@@ -355,7 +355,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Consumer Seals',
-    teamShieldUrl: '/img/shields/consumer-seals.png',
+    teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/consumer-seals.png',
     smileyType: 2,
     totalScore: 96,
@@ -400,7 +400,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Consumer Seals',
-    teamShieldUrl: '/img/shields/consumer-seals.png',
+    teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/consumer-seals.png',
     smileyType: 2,
     totalScore: 96,
