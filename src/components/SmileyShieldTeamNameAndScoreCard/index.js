@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import SmileyShield from '../SmileyShield'
-import TeamNameWithScoreCard from '../TeamNameWithScoreCard'
+import TeamNameImage from '../TeamNameImage'
+import ScoreCard from '../ScoreCard'
 import './styles.sass'
 
 class SmileyShieldTeamNameAndScoreCard extends Component {
@@ -9,7 +10,8 @@ class SmileyShieldTeamNameAndScoreCard extends Component {
     return (
       <div className="SmileyShieldTeamNameAndScoreCard">
         <SmileyShield componentData={componentData} />
-        <TeamNameWithScoreCard componentData={componentData} />
+        <TeamNameImage componentData={componentData} />
+        <ScoreCard componentData={componentData} />
       </div>
     )
   }
