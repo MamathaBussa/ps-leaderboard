@@ -36,15 +36,16 @@ export const eventData = [
   },
 ].sort((a, b) => a.order - b.order)
 
-
 export const LeaderBoardData = [
   {
     teamName: 'Auto Rebels',
+    teamBgColor: '#d35400',
     teamShieldUrl: '/img/people/Happy-1.png',
+    emojiUrl: '/img/',
+    smileyUrl: 'http://.........',
     teamImageUrl: '/img/teams/auto-rebels.png',
     smileyType: 1,
     totalScore: 129,
-    smileyUrl: 'http://.........',
     scores: [
       {
         eventId: 1,
@@ -85,6 +86,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Energy Pirates',
+    teamBgColor: '#2ecc71',
     teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/energy-pirates.png',
     smileyType: 2,
@@ -130,6 +132,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'COE Snipers',
+    teamBgColor: '#aed6f1',
     teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/coe-snipers.png',
     smileyType: 2,
@@ -175,6 +178,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Travel Ninjas',
+    teamBgColor: '#e74c3c',
     teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/travel-ninjas.png',
     smileyType: 2,
@@ -219,7 +223,8 @@ export const LeaderBoardData = [
     ],
   },
   {
-    teamName: 'Giants',
+    teamName: 'Tele Warriors',
+    teamBgColor: '#f4d03f',
     teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/tele-warriors.png',
     smileyType: 2,
@@ -265,6 +270,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Fin Mafia',
+    teamBgColor: '#e7f2f9',
     teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/fin-mafia.png',
     smileyType: 2,
@@ -309,7 +315,8 @@ export const LeaderBoardData = [
     ],
   },
   {
-    teamName: 'Broncos',
+    teamName: 'Retail Rangers',
+    teamBgColor: '#d35400',
     teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/retail-rangers.png',
     smileyType: 2,
@@ -355,6 +362,7 @@ export const LeaderBoardData = [
   },
   {
     teamName: 'Consumer Seals',
+    teamBgColor: '#1e8449',
     teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/consumer-seals.png',
     smileyType: 2,
@@ -399,7 +407,8 @@ export const LeaderBoardData = [
     ],
   },
   {
-    teamName: 'Consumer Seals',
+    teamName: 'Core Battalion',
+    teamBgColor: '#f5b7b1',
     teamShieldUrl: '/img/people/Happy-1.png',
     teamImageUrl: '/img/teams/core-battalion.png',
     smileyType: 2,

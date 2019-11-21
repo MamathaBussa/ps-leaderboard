@@ -3,10 +3,10 @@ import './styles.sass'
 
 class ScoreCard extends Component {
   render() {
-    const {totalScore} = this.props.componentData
+    const {totalScore, teamBgColor} = this.props.componentData
     return (
-      <div className="ScoreCard">
-        <div>{totalScore}</div>
+      <div className="ScoreCard" style={{backgroundColor: teamBgColor}} >
+        {totalScore}
       </div>
     )
   }
