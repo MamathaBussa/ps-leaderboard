@@ -1,8 +1,9 @@
 import React, {Component} from 'react'
 import $ from 'jquery'
 import './App.sass'
-import CurrentComponent from './components/AllTeamSummarySlide'
-import {LeaderBoardData} from './data'
+import AppTitle from './components/AppTitle'
+// import CurrentComponent from './components/AllTeamSummarySlide'
+// import {LeaderBoardData} from './data'
 
 class App extends Component {
   componentDidMount() {
@@ -15,6 +16,9 @@ class App extends Component {
     return (
       <div className="App">
         <div className="above-1070px-content">
+          <AppTitle componentData={{
+            logoImg: '/img/logos/battle-ground-logo-transparent.png',
+          }}/>
           {/* <div className="container">
             <CurrentComponent componentData={LeaderBoardData} />
           </div>*/}
