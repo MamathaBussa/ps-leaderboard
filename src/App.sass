@@ -1,6 +1,5 @@
-$marioSkyColor: #95E8F3
 html
-  background-color: $marioSkyColor
+  background-color: #95E8F3
   .App
     .below-1070px-content
       display: flex
@@ -15,18 +14,14 @@ html
 @media screen and (min-width:1071px)
   html
     min-height: 100vh
-    // background-color: $marioSkyColor !important
     .App
       .below-1070px-content
         display: none
       .above-1070px-content
+        padding: 10px
         display: block
-        margin: 0 auto
         min-height: 100vh
         outline: 1px blue solid
         background: url(/img/bg/app-bg.png) repeat 0 0
-        // background-attachment: fixed
         background-size: 1400px 800px
         .container
-          // box
-          position: relative
