@@ -3,7 +3,7 @@ import './styles.sass'
 
 class SmileyShield extends Component {
   render() {
-    const {teamShieldUrl, teamName}=this.props.componentData
+    const {teamShieldUrl, emojiUrl, teamName}=this.props.componentData
     return (
       <div className="SmileyShield card white">
         <img
@@ -14,9 +14,9 @@ class SmileyShield extends Component {
         />
         <img
           className="emojiImage"
-          src="/img/emojis/happy-2.png"
-          alt="Happy 2"
-          title="Happy 2"
+          src={emojiUrl}
+          alt={teamName}
+          title={teamName}
         />
       </div>
     )
