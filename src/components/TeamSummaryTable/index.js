@@ -7,15 +7,17 @@ const TeamSummaryTable = ({componentData}) => {
   return (
     <div className="TeamSummaryTable">
       <table>
-        {componentData.map((eachComponentData, i)=> (
-          <tr key={i}>
-            <td>
-              <SmileyShieldTeamNameAndScoreCard
-                componentData={eachComponentData}
-              />
-            </td>
-          </tr>
-        ))}
+        <tbody>
+          {componentData.map((eachComponentData, i)=> (
+            <tr key={i}>
+              <td>
+                <SmileyShieldTeamNameAndScoreCard
+                  componentData={eachComponentData}
+                />
+              </td>
+            </tr>
+          ))}
+        </tbody>
       </table>
     </div>
   )
