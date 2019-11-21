@@ -14,8 +14,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="container above-1070px-content">
-          <CurrentComponent componentData={LeaderBoardData} />
+        <div className="above-1070px-content">
+          {/* <div className="container">
+            <CurrentComponent componentData={LeaderBoardData} />
+          </div>*/}
         </div>
         <div className="container below-1070px-content">
           <img src="/img/gold-coin.png"
