@@ -40,7 +40,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Auto Rebels',
     teamBgColor: '#d35400',
-    teamShieldUrl: '/img/people/Happy-1.png',
+    teamShieldUrl: '/img/people/happy-1.png',
     emojiUrl: '/img/emojis/happy-2.png',
     smileyUrl: 'http://.........',
     teamImageUrl: '/img/teams/auto-rebels.png',
@@ -87,7 +87,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Energy Pirates',
     teamBgColor: '#2ecc71',
-    teamShieldUrl: '/img/people/Happy-1.png',
+    teamShieldUrl: '/img/people/happy-1.png',
     emojiUrl: '/img/emojis/sad-1.png',
     teamImageUrl: '/img/teams/energy-pirates.png',
     smileyType: 2,
@@ -135,7 +135,7 @@ export const LeaderBoardData = [
     teamName: 'COE Snipers',
     teamBgColor: '#aed6f1',
     emojiUrl: '/img/emojis/happy-1.png',
-    teamShieldUrl: '/img/people/Happy-1.png',
+    teamShieldUrl: '/img/people/happy-1.png',
     teamImageUrl: '/img/teams/coe-snipers.png',
     smileyType: 2,
     totalScore: 111,
@@ -182,7 +182,7 @@ export const LeaderBoardData = [
     teamName: 'Travel Ninjas',
     teamBgColor: '#e74c3c',
     emojiUrl: '/img/emojis/happy-1.png',
-    teamShieldUrl: '/img/people/Happy-1.png',
+    teamShieldUrl: '/img/people/happy-1.png',
     teamImageUrl: '/img/teams/travel-ninjas.png',
     smileyType: 2,
     totalScore: 110,
@@ -369,7 +369,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Consumer Seals',
     teamBgColor: '#1e8449',
-    teamShieldUrl: '/img/people/Happy-1.png',
+    teamShieldUrl: '/img/people/happy-1.png',
     emojiUrl: '/img/emojis/sad-1.png',
     teamImageUrl: '/img/teams/consumer-seals.png',
     smileyType: 2,
@@ -416,7 +416,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Core Battalion',
     teamBgColor: '#f5b7b1',
-    teamShieldUrl: '/img/people/Happy-1.png',
+    teamShieldUrl: '/img/people/happy-1.png',
     emojiUrl: '/img/emojis/happy-1.png',
     teamImageUrl: '/img/teams/core-battalion.png',
     smileyType: 2,
