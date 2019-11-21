@@ -5,7 +5,7 @@ class SmileyShield extends Component {
   render() {
     const {teamShieldUrl, teamName}=this.props.componentData
     return (
-      <div className="SmileyShield">
+      <div className="SmileyShield card white">
         <img
           className="personImage"
           src={teamShieldUrl}

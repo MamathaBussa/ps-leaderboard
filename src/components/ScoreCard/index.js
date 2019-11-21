@@ -5,7 +5,10 @@ class ScoreCard extends Component {
   render() {
     const {totalScore, teamBgColor} = this.props.componentData
     return (
-      <div className="ScoreCard" style={{backgroundColor: teamBgColor}} >
+      <div
+        className="ScoreCard card"
+        style={{backgroundColor: teamBgColor}}
+      >
         {totalScore}
       </div>
     )
