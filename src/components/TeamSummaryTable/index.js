@@ -1,12 +1,20 @@
 import React from 'react'
+import SmileyShieldTeamNameAndScoreCard
+  from '../SmileyShieldTeamNameAndScoreCard'
 
 const TeamSummaryTable = ({componentData}) => {
   return (
     <div className="TeamSummaryTable">
       <table>
-        <tr className="card white">
-          <td>{JSON.stringify(componentData)}</td>
-        </tr>
+        {componentData.map((eachComponentData, i)=> (
+          <tr key={i}>
+            <td>
+              <SmileyShieldTeamNameAndScoreCard
+                componentData={eachComponentData}
+              />
+            </td>
+          </tr>
+        ))}
       </table>
     </div>
   )

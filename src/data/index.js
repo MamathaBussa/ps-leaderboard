@@ -398,6 +398,51 @@ export const LeaderBoardData = [
 
     ],
   },
+  {
+    teamName: 'Consumer Seals',
+    teamShieldUrl: '/img/shields/consumer-seals.png',
+    teamImageUrl: '/img/teams/consumer-seals.png',
+    smileyType: 2,
+    totalScore: 96,
+    scores: [
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+      {
+        eventId: 1,
+        score: 9,
+        order: 1,
+      },
+
+    ],
+  },
 ]
     .map((eachBoard) => {
       // const {scores} = eachBoard
