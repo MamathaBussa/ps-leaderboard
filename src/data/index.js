@@ -401,7 +401,7 @@ export const LeaderBoardData = [
   {
     teamName: 'Consumer Seals',
     teamShieldUrl: '/img/people/Happy-1.png',
-    teamImageUrl: '/img/teams/consumer-seals.png',
+    teamImageUrl: '/img/teams/core-battalion.png',
     smileyType: 2,
     totalScore: 96,
     scores: [
