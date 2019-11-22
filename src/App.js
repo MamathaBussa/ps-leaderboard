@@ -17,7 +17,7 @@ class App extends Component {
       <div className="App">
         <div className="above-1070px-content">
           <AppTitle componentData={{
-            logoImg: '/img/logos/battle-ground-logo-transparent.png',
+            logoImg: '/img/logos/battle-ground-logo-new.png',
           }}/>
           <div className="container">
             <CurrentComponent componentData={LeaderBoardData} />
