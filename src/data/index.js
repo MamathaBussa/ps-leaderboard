@@ -452,7 +452,6 @@ export const LeaderBoardData = [
   },
 ]
     .map((eachBoard) => {
-      // const {scores} = eachBoard
       eachBoard.scores.sort((a, b) => a.order - b.order)
       return eachBoard
     })
