@@ -43,7 +43,6 @@ export const LeaderBoardData = [
     teamShieldUrl: '/img/people/happy-1.png',
     emojiUrl: '/img/emojis/Happy2.png',
     teamImageUrl: '/img/teams/auto-rebels.png',
-    smileyType: 1,
     totalScore: 129,
     scores: [
       {
@@ -89,7 +88,6 @@ export const LeaderBoardData = [
     teamShieldUrl: '/img/people/happy-1.png',
     emojiUrl: '/img/emojis/Flat.png',
     teamImageUrl: '/img/teams/energy-pirates.png',
-    smileyType: 2,
     totalScore: 118,
     scores: [
       {
@@ -136,7 +134,6 @@ export const LeaderBoardData = [
     emojiUrl: '/img/emojis/Sad.png',
     teamShieldUrl: '/img/people/happy-1.png',
     teamImageUrl: '/img/teams/coe-snipers.png',
-    smileyType: 2,
     totalScore: 111,
     scores: [
       {
@@ -183,7 +180,6 @@ export const LeaderBoardData = [
     emojiUrl: '/img/emojis/Angry.png',
     teamShieldUrl: '/img/people/happy-1.png',
     teamImageUrl: '/img/teams/travel-ninjas.png',
-    smileyType: 2,
     totalScore: 110,
     scores: [
       {
@@ -230,7 +226,6 @@ export const LeaderBoardData = [
     emojiUrl: '/img/emojis/Happy1.png',
     teamShieldUrl: '/img/people/happy-1.png',
     teamImageUrl: '/img/teams/tele-warriors.png',
-    smileyType: 2,
     totalScore: 108,
     scores: [
       {
@@ -277,7 +272,6 @@ export const LeaderBoardData = [
     emojiUrl: '/img/emojis/Happy2.png',
     teamShieldUrl: '/img/people/happy-1.png',
     teamImageUrl: '/img/teams/fin-mafia.png',
-    smileyType: 2,
     totalScore: 104,
     scores: [
       {
@@ -324,7 +318,6 @@ export const LeaderBoardData = [
     teamShieldUrl: '/img/people/happy-1.png',
     emojiUrl: '/img/emojis/Sad.png',
     teamImageUrl: '/img/teams/retail-rangers.png',
-    smileyType: 2,
     totalScore: 102,
     scores: [
       {
@@ -371,7 +364,6 @@ export const LeaderBoardData = [
     teamShieldUrl: '/img/people/happy-1.png',
     emojiUrl: '/img/emojis/Angry.png',
     teamImageUrl: '/img/teams/consumer-seals.png',
-    smileyType: 2,
     totalScore: 96,
     scores: [
       {
@@ -418,7 +410,6 @@ export const LeaderBoardData = [
     teamShieldUrl: '/img/people/happy-1.png',
     emojiUrl: '/img/emojis/Happy2.png',
     teamImageUrl: '/img/teams/core-battalion.png',
-    smileyType: 2,
     totalScore: 96,
     scores: [
       {
