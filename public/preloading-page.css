@@ -5,7 +5,7 @@
   right: 0;
   bottom: 0;
   z-index: 200;
-  background-color: white;
+  background: url(/img/bg/app-bg-sm.png)
 }
 
 .loading-indicator {
@@ -14,13 +14,11 @@
   justify-content:center;
   height: 100%;
   width: 100%;
-  background-color: white;
+  background: url(/img/bg/app-bg-sm.png)
 }
 .loading-indicator img {
   display: block;
   margin: 0 auto;
-  width: 600px;
+  width: 400px;
   max-width: 98%;
-  box-shadow: 1px 1px 8px gray;
-  margin-bottom: -42px;
 }
