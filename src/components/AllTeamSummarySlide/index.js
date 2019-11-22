@@ -20,6 +20,11 @@ class AllTeamsSummarySlide extends Component {
           </div>
           <div className="col s6">
             <TeamSummaryTable componentData={oddIndices}/>
+            <div className="right-bottom-logo">
+              <img src="/img/logos/leaderboard-sm.png"
+                alt="Leaderboard"
+              />
+            </div>
           </div>
         </div>
       </div>
